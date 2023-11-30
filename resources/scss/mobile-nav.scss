@@ -1,0 +1,8 @@
+@use './utilities/colors';
+
+.hotale-mm-menu-wrap.hotale-navigation-font{
+    background-color:  colors.$main-400 !important;
+    & ul li a{
+        color:white
+    }
+}
