@@ -11,3 +11,23 @@ body{
 .hotale-body-wrapper{
     background-color: colors.$bgc !important
 }
+
+.rooms-container{
+    // background-color: colors.$main-200;
+    background-color: white;
+}
+
+.attractions-container{
+    background-color: white;
+}
+
+
+.tourmaster-price-wrap.tourmaster-with-bg{
+    background-color: colors.$main-400 !important
+}
+
+
+
+.hotale-body-wrapper.hotale-with-frame, body.hotale-full .hotale-fixed-footer{
+    margin:0
+}

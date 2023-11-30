@@ -1,4 +1,4 @@
-<div class="gdlr-core-pbf-wrapper" style="margin: 0px 0px 0px 0px; padding: 200px 0px 150px 0px;" id="gdlr-core-wrapper-1">
+<div class="gdlr-core-pbf-wrapper hero-container" style="margin: 0px 0px 0px 0px; padding: 200px 0px 150px 0px;" id="gdlr-core-wrapper-1">
     
     <div class="gdlr-core-pbf-background-wrap">
         <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
@@ -21,16 +21,18 @@
                                 <div class="gdlr-core-title-item-title-wrap">
                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test"
                                         style="font-size: 96px; font-weight: 200; letter-spacing: 4px; text-transform: none; color: #ffffff;">
-                                        Book Your <span style="font-weight: 500;">Stay</span><span
+                                        <span style="font-weight: 500;">Javea Dream</span> Apartments<span
                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                     </h3>
                                 </div>
                                 <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
                                     style="font-size: 37px; font-weight: 300; font-style: normal; letter-spacing: 4px; color: #ffffff;">
-                                    With <span style="font-weight: 500;">Hotale</span>
+                                    Savor the Sun <span style="font-weight: 500;">Relish the Comfort</span>
                                 </span>
                             </div>
                         </div>
+                
+
                     </div>
                 </div>
             </div>
