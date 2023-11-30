@@ -6,8 +6,8 @@
 @include('partials.nav.mobile')
 
     
-    <div class="hotale-body-outer-wrapper">
-        <div class="hotale-body-wrapper clearfix hotale-with-frame">
+    <div class="hotale-body-outer-wrapper" >
+        <div class="hotale-body-wrapper clearfix hotale-with-frame ">
 
             {{--TOP-BAR--}}
            @include('partials.top-bar')

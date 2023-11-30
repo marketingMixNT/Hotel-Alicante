@@ -13,7 +13,7 @@
 </head>
 <body
 class="home page-template-default page page-id-15020 theme-hotale gdlr-core-body tourmaster-body woocommerce-no-js hotale-body hotale-body-front hotale-full hotale-with-sticky-navigation hotale-blockquote-style-3 gdlr-core-link-to-lightbox"
-data-home-url="index.html"
+data-home-url="index.html" 
 >
 {{$slot}}
 

@@ -1,0 +1,13 @@
+@use './utilities/colors';
+
+
+body{
+    p{
+        color:colors.$font !important
+    }
+    
+}
+
+.hotale-body-wrapper{
+    background-color: colors.$bgc !important
+}
