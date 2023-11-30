@@ -5,6 +5,10 @@ body{
     p{
         color:colors.$font !important
     }
+    .gdlr-core-divider-line.gdlr-core-skin-divider{
+        border-color:colors.$main-600;
+        border-width:3px
+    }
     
 }
 
@@ -17,7 +21,7 @@ body{
     background-color: white;
 }
 
-.attractions-container{
+.attractions-container,.cta-container,.testimonial-container,.attractions--second-container{
     background-color: white;
 }
 
@@ -30,4 +34,11 @@ body{
 
 .hotale-body-wrapper.hotale-with-frame, body.hotale-full .hotale-fixed-footer{
     margin:0
+}
+
+
+.btn{
+    &--primary{
+        background-color: colors.$main-400 !important;
+    }
 }
