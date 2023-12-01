@@ -1,4 +1,4 @@
-<div class="hotale-navigation hotale-item-pdlr clearfix hotale-navigation-submenu-indicator">
+<div class="hotale-navigation hotale-item-pdlr clearfix hotale-navigation-submenu-indicator desktop-nav-container">
     <div class="hotale-main-menu" id="hotale-main-menu">
         {{--NAV-ITEMS--}}
        @include('partials.nav.nav-items-desktop')
@@ -8,7 +8,7 @@
         <div class="tourmaster-room-navigation-checkout-wrap">
             <a
                 id="tourmaster-room-navigation-checkout-button"
-                class="tourmaster-room-navigation-checkout-button"
+                class="tourmaster-room-navigation-checkout-button btn--secondary"
                 href="#"
                 data-checkout-label="Check Out"
                 data-label="Book Now"

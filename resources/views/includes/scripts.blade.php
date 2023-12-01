@@ -1,3 +1,4 @@
+
 <script type="text/javascript" src="{{ asset('js/jquery.min.js?ver=3.6.0') }}" id="jquery-core-js"></script>
 <script type="text/javascript" src="{{ asset('js/jquery-migrate.min.js?ver=3.3.2') }}" id="jquery-migrate-js"></script>
 <script type="text/javascript" id="snazzymaps-js-js-extra">
@@ -67,3 +68,5 @@
     /* ]]> */
 </script>
 <script type="text/javascript" src="{{ asset('js/plugins/goodlayers-core/include/js/page-builder.js?ver=1.3.9') }}" id="gdlr-core-page-builder-js"></script>
+
+

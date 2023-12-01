@@ -37,7 +37,7 @@
             </div>
             <div class="gdlr-core-pbf-element">
                 <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align" >
-                    <a class="gdlr-core-button gdlr-core-button-transparent gdlr-core-center-align gdlr-core-button-with-border btn" 
+                    <a class="gdlr-core-button gdlr-core-button-transparent gdlr-core-center-align gdlr-core-button-with-border btn--secondary" 
                         href="{{ $href }}" id="gdlr-core-button-id-1">
                         <span class="gdlr-core-content">Read More</span>
                     </a>

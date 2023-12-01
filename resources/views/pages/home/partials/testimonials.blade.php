@@ -1,4 +1,4 @@
-<div class="gdlr-core-pbf-wrapper" style="padding: 100px 0px 110px 0px;">
+<div class="gdlr-core-pbf-wrapper testimonial-container" style="padding: 100px 0px 110px 0px;">
     <div class="gdlr-core-pbf-background-wrap"></div>
     <div class="gdlr-core-pbf-background-wrap" style="top: 350px;">
         <div
@@ -31,7 +31,7 @@
                         <div class="gdlr-core-pbf-element">
                             <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align">
                                 <div class="gdlr-core-divider-container" style="max-width: 43px;">
-                                    <div class="gdlr-core-divider-line gdlr-core-skin-divider" style="border-color: #193573; border-width: 2px;"></div>
+                                    <div class="gdlr-core-divider-line gdlr-core-skin-divider"></div>
                                 </div>
                             </div>
                         </div>

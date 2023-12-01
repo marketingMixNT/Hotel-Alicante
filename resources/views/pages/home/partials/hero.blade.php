@@ -111,7 +111,7 @@
                                         </div>
                                     </div>
                                     <div class="tourmaster-room-search-size4 tourmaster-room-search-submit-wrap">
-                                        <input class="tourmaster-room-search-submit tourmaster-style-solid" type="submit" value="Search Room" style="background-color: #88b4be"/>
+                                        <input class="tourmaster-room-search-submit tourmaster-style-solid btn--primary" type="submit" value="Search Room"/>
                                     </div>
                                     <input type="hidden" name="room-search" value="" />
                                 </form>

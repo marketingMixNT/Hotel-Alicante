@@ -12,6 +12,11 @@ body{
     
 }
 
+.hotale-footer-wrapper{
+    background-color: colors.$main-400 !important
+
+}
+
 .hotale-body-wrapper{
     background-color: colors.$bgc !important
 }
@@ -21,7 +26,7 @@ body{
     background-color: white;
 }
 
-.attractions-container,.cta-container,.testimonial-container,.attractions--second-container{
+.desktop-nav-container,.attractions-container,.cta-container,.testimonial-container,.attractions--second-container,.testimonial-container{
     background-color: white;
 }
 
@@ -41,4 +46,20 @@ body{
     &--primary{
         background-color: colors.$main-400 !important;
     }
+    &--secondary{
+        border:1px solid colors.$main-400 !important;
+        color: colors.$main-400 !important
+    }
+    &--third{
+        border:1px solid white !important;
+        color: white !important
+    }
 }
+
+
+@media(max-width:768px){
+    .attraction-card-second-right{
+        display:flex;flex-direction:column-reverse
+    }
+}
+

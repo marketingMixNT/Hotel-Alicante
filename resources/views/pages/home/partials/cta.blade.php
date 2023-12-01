@@ -1,3 +1,12 @@
+<div class="gdlr-core-pbf-wrapper cta-container" style="padding: 115px 0px 75px 0px;"
+                        id="gdlr-core-wrapper-3">
+                        <div class="gdlr-core-pbf-background-wrap" style="background-color: #f6f6f6;">
+                            <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
+                                style="background-image: url(upload/hotel-about-bg.png); background-repeat: no-repeat; background-position: top center;"
+                                data-parallax-speed="0"></div>
+                        </div>
+                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
+
 <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container" >
     <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first" id="gdlr-core-column-7" >
         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js" style="margin: 0px 0px 0px 0px; padding: 40px 90px 0px 0px;" >
@@ -15,7 +24,7 @@
                 <div class="gdlr-core-pbf-element">
                     <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-left-align">
                         <div class="gdlr-core-divider-container" style="max-width: 54px;">
-                            <div class="gdlr-core-divider-line gdlr-core-skin-divider" style="border-width: 5px;"></div>
+                            <div class="gdlr-core-divider-line gdlr-core-skin-divider" ></div>
                         </div>
                     </div>
                 </div>
@@ -53,4 +62,7 @@
             </div>
         </div>
     </div>
+</div>
+
+</div>
 </div>

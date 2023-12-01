@@ -34,8 +34,10 @@
                 </div>
             </div>
             <div class="hotale-top-bar-right hotale-item-pdlr">
+              
                 <div class="hotale-top-bar-right-social">
                    @include('partials.socials')
+                
                 </div>
                 <div class="tourmaster-currency-switcher">
                     <span class="tourmaster-head"><span style="color:white">ENG</span><i class="fa fa-sort-down" style="color:white"></i></span>
@@ -49,6 +51,7 @@
                         </div>
                     </div>
                 </div>
+                
                
             </div>
         </div>
