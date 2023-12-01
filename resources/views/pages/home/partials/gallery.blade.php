@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="gdlr-core-pbf-column gdlr-core-column-40 gdlr-core-column-first" id="gdlr-core-column-9">
+            <div class="gdlr-core-pbf-column gdlr-core-column-40 gdlr-core-column-first gallery-first-img" id="gdlr-core-column-9">
                 <div
                     class="gdlr-core-pbf-column-content-margin gdlr-core-js"
                     style="margin: 15px 15px 15px 15px; padding: 285px 0px 30px 0px;"
