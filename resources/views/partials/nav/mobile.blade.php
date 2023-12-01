@@ -1,5 +1,5 @@
 <div class="hotale-mobile-header-wrap">
-    <div class="hotale-mobile-header hotale-header-background hotale-style-slide hotale-sticky-mobile-navigation" id="hotale-mobile-header">
+    <div class="hotale-mobile-header hotale-header-background hotale-style-slide hotale-sticky-mobile-navigation nav__mobile" id="hotale-mobile-header">
         <div class="hotale-mobile-header-container hotale-container clearfix" >
             <div class="hotale-logo hotale-item-pdlr">
                 <div class="hotale-logo-inner">
@@ -19,7 +19,7 @@
             <div class="hotale-mobile-menu-right">
                
                 <div class="hotale-mobile-menu" >
-                    <a class="hotale-mm-menu-button hotale-mobile-menu-button hotale-mobile-button-hamburger" href="#hotale-mobile-menu"><span></span></a>
+                    <a class="hotale-mm-menu-button hotale-mobile-menu-button hotale-mobile-button-hamburger hamburger" href="#hotale-mobile-menu"><span></span></a>
                     <div class="hotale-mm-menu-wrap hotale-navigation-font" id="hotale-mobile-menu" data-slide="right" >
                         {{--NAV-ITEMS--}}
                         @include('partials.nav.nav-items')

@@ -1,5 +1,21 @@
 @use './utilities/colors';
 
+.change-bgc{
+    background-color: colors.$main-400 !important;
+}
+
+.nav__mobile{
+    background-color: colors.$main-400;
+}
+
+.hamburger span, .hamburger::after, .hamburger::before{
+    background-color: white;
+}
+
+.mmenu-custom-close::after{
+    color:white
+}
+
 .hotale-mm-menu-wrap.hotale-navigation-font{
     background-color:  colors.$main-400 !important;
     & ul li a{
@@ -12,5 +28,5 @@
 // DESKTOP
 
 #menu-main-navigation-1 li a{
-    color:black !important
+    color:black 
 }
