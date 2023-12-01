@@ -1,4 +1,4 @@
-<div class="gdlr-core-pbf-wrapper testimonial-container" style="padding: 100px 0px 110px 0px;">
+<div class="gdlr-core-pbf-wrapper testimonial-container" style="padding:0">
     <div class="gdlr-core-pbf-background-wrap"></div>
     <div class="gdlr-core-pbf-background-wrap" style="top: 350px;">
         <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"

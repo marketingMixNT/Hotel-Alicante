@@ -1,11 +1,7 @@
 <div class="gdlr-core-pbf-wrapper" style="padding: 70px 0px 80px 0px;" id="gdlr-core-wrapper-3">
-    <div class="gdlr-core-pbf-background-wrap" style="background-color: #f6f6f6;"></div>
+    <div class="gdlr-core-pbf-background-wrap" style="background-color:white"></div>
     <div class="gdlr-core-pbf-background-wrap" style="top: 40px;">
-        <div
-            class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-            style="background-image: url(upload/about-room-bg-1.png); background-repeat: no-repeat; background-position: top center;"
-            data-parallax-speed="0"
-        ></div>
+        
     </div>
     <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
         <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
