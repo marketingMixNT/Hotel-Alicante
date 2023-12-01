@@ -1,6 +1,6 @@
 <div class="hotale-top-bar hotale-middle-logo" >
 <div class="hotale-top-bar-background"></div>
-    <div class="hotale-top-bar-container hotale-top-bar-full">
+    <div class="hotale-top-bar-container hotale-top-bar-full" style="max-width:1280px">
         <div class="hotale-top-bar-container-inner clearfix">
             <div class="hotale-top-bar-left hotale-item-pdlr">
                 <div class="hotale-top-bar-left-text">

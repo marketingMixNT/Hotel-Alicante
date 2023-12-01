@@ -25,8 +25,8 @@
         </ul>
     </li>
    
-    <li class="menu-ite hotale-normal-menu" ><a href="contact.html" >Gallery</a></li>
+    <li class="menu-ite hotale-normal-menu" ><a href="{{route('gallery')}}" >Gallery</a></li>
 
 
-    <li class="menu-ite hotale-normal-menu"><a href="contact.html">Contact</a></li>
+    <li class="menu-ite hotale-normal-menu"><a href="{{route('contact')}}">Contact</a></li>
 </ul>

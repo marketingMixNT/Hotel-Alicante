@@ -1,4 +1,5 @@
 <div class="hotale-navigation hotale-item-pdlr clearfix hotale-navigation-submenu-indicator desktop-nav-container">
+   
     <div class="hotale-main-menu" id="hotale-main-menu">
         {{--NAV-ITEMS--}}
        @include('partials.nav.nav-items-desktop')
@@ -23,4 +24,5 @@
             </div>
         </div>
     </div>
+
 </div>

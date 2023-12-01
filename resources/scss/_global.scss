@@ -2,9 +2,9 @@
 
 
 body{
-    p{
-        color:colors.$font !important
-    }
+    // p{
+    //     color:colors.$font !important
+    // }
     .gdlr-core-divider-line.gdlr-core-skin-divider{
         border-color:colors.$main-600;
         border-width:3px
@@ -19,6 +19,10 @@ body{
 
 .hotale-body-wrapper{
     background-color: colors.$bgc !important
+}
+
+.contact-section{
+background-color:colors.$main-400
 }
 
 .rooms-container{
