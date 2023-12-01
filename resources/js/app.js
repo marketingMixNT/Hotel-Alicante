@@ -1,2 +1,3 @@
 import './bootstrap';
-import './footerYear'
+import './footerYear';
+import './cookieBar'
