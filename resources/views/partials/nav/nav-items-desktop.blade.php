@@ -1,6 +1,6 @@
 <ul id="menu-main-navigation-1" class="sf-menu">
    
-    <li class="menu-ite hotale-normal-menu"><a href="contact.html">About Us</a></li>
+    <li class="menu-ite hotale-normal-menu"><a href="{{route('about')}}">About Us</a></li>
     <li class="menu-item menu-item-has-children hotale-normal-menu">
         <a href="room-grid-style-1.html" class="sf-with-ul-pre">Apartments</a>
         <ul class="sub-menu">
