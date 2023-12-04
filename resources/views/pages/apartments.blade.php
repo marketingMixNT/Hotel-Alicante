@@ -17,7 +17,7 @@
                 </div>
                 <div class="tourmaster-room-content">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
                 <div class="tourmaster-bottom">
-                    <a class="tourmaster-read-more tourmaster-type-text" href="single-room.html">Book Now<i class="icon-arrow-right"></i></a>
+                    <a class="tourmaster-read-more tourmaster-type-text" href="single-room.html">See Details<i class="icon-arrow-right"></i></a>
                     <div class="tourmaster-price-wrap tourmaster-no-bg">
                         <span class="tourmaster-head">From</span><span class="tourmaster-price">$90</span><span class="tourmaster-tail"> / night</span>
                     </div>
@@ -37,7 +37,7 @@
                     </div>
                     <div class="tourmaster-room-content">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
                     <div class="tourmaster-bottom">
-                        <a class="tourmaster-read-more tourmaster-type-text" href="single-room.html">Book Now<i class="icon-arrow-right"></i></a>
+                        <a class="tourmaster-read-more tourmaster-type-text" href="single-room.html">See Details<i class="icon-arrow-right"></i></a>
                         <div class="tourmaster-price-wrap tourmaster-no-bg">
                             <span class="tourmaster-head">From</span><span class="tourmaster-price">$90</span><span class="tourmaster-tail"> / night</span>
                         </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="tourmaster-room-content">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
                 <div class="tourmaster-bottom">
-                    <a class="tourmaster-read-more tourmaster-type-text" href="single-room.html">Book Now<i class="icon-arrow-right"></i></a>
+                    <a class="tourmaster-read-more tourmaster-type-text" href="single-room.html">See Details<i class="icon-arrow-right"></i></a>
                     <div class="tourmaster-price-wrap tourmaster-no-bg">
                         <span class="tourmaster-head">From</span><span class="tourmaster-price">$90</span><span class="tourmaster-tail"> / night</span>
                     </div>
@@ -77,7 +77,7 @@
                     </div>
                     <div class="tourmaster-room-content">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
                     <div class="tourmaster-bottom">
-                        <a class="tourmaster-read-more tourmaster-type-text" href="single-room.html">Book Now<i class="icon-arrow-right"></i></a>
+                        <a class="tourmaster-read-more tourmaster-type-text" href="single-room.html">See Details<i class="icon-arrow-right"></i></a>
                         <div class="tourmaster-price-wrap tourmaster-no-bg">
                             <span class="tourmaster-head">From</span><span class="tourmaster-price">$90</span><span class="tourmaster-tail"> / night</span>
                         </div>

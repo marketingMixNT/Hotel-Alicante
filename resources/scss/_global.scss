@@ -47,8 +47,12 @@ background-color:colors.$main-400
 
 
 .btn{
+
     &--primary{
         background-color: colors.$main-400 !important;
+        border-radius: 0px !important;
+
+        
     }
     &--secondary{
         border:1px solid colors.$main-400 !important;
