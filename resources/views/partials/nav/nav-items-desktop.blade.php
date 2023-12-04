@@ -2,7 +2,7 @@
    
     <li class="menu-ite hotale-normal-menu"><a href="{{route('about')}}">About Us</a></li>
     <li class="menu-item menu-item-has-children hotale-normal-menu">
-        <a href="room-grid-style-1.html" class="sf-with-ul-pre">Apartments</a>
+        <a href="{{route('apartments')}}" class="sf-with-ul-pre">Apartments</a>
         <ul class="sub-menu">
             <li class="menu-item" data-size="60">
                 <a href="room-grid-style-1.html">Room Grid Style 1</a>
