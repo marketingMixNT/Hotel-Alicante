@@ -1,6 +1,6 @@
 <x-layouts.master>
 
-    <x-breadcrumbs title="Arena Dream A3A Gallery" bgi="{{asset('assets/images/arenal-a3a/arenal-a3a_3.webp')}}"/>
+    <x-breadcrumbs title="Arenal Dream D2B Gallery" bgi="{{asset('assets/images/arenal-d2b/arenal-d2b_2.webp')}}"/>
   
     <div class="hotale-page-wrapper" id="hotale-page-wrapper">
         <div class="gdlr-core-page-builder-body">
@@ -14,9 +14,9 @@
                                 class="gdlr-core-gallery-item gdlr-core-item-pdb clearfix gdlr-core-gallery-item-style-grid">
     
     
-                                @foreach (File::files(public_path('assets/images/arenal-a3a')) as $image)
-                                    <x-gallery-item src="{{ asset('/assets/images/arenal-a3a/' . $image->getFilename()) }}"
-                                        alt="Arena Dream A3A apartment photo" />
+                                @foreach (File::files(public_path('assets/images/arenal-d2b')) as $image)
+                                    <x-gallery-item src="{{ asset('/assets/images/arenal-d2b/' . $image->getFilename()) }}"
+                                        alt="Arenal Dream D2B apartment photo" />
                                 @endforeach
     
     
