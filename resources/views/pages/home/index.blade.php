@@ -11,11 +11,7 @@
                     @include('pages.home.partials.rooms')
 
                     {{-- ATTRACTIONS --}}
-                    {{-- @include('pages.home.partials.attractions') --}}
                     @include('pages.home.partials.cta')
-
-                    {{-- CTA --}}
-                    {{-- @include('pages.home.partials.cta') --}}
 
                     {{-- HERO--SECOND --}}
                     @include('pages.home.partials.hero-second')

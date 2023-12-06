@@ -37,7 +37,7 @@
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
                             style="
-                                background-image: url({{asset('assets/images/hotel_1.webp')}});
+                                background-image: url({{asset('assets/images/arenal-a3a/arenal-a3a_12.webp')}});
                                 background-size: cover;
                                 background-position: center;
                             "
@@ -61,7 +61,7 @@
                     <div class="gdlr-core-pbf-background-wrap" >
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url({{asset('assets/images/hotel_1.webp')}}); background-size: cover; background-position: center;"
+                            style="background-image: url({{asset('assets/images/arenal-dream/arenal-dream_10.webp')}}); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -83,7 +83,7 @@
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
                             style="
-                                background-image: url({{asset('assets/images/hotel_1.webp')}});
+                                background-image: url({{asset('assets/images/arenal-dream/arenal-dream_12git.webp')}});
                                 opacity: 0.8;
                                 background-size: cover;
                                 background-position: center;

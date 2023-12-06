@@ -2,7 +2,7 @@
     <div class="gdlr-core-pbf-background-wrap" style="background-color: #0a0a0a;">
         <div
             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-            style="opacity: 0.6; background-image: url({{asset('assets/images/hotel_1.webp')}}); background-size: cover; background-position: center;"
+            style="opacity: 0.6; background-image: url({{asset('assets/images/arenal-dream/arenal-dream_1.webp')}}); background-size: cover; background-position: center;"
             data-parallax-speed="0"
         ></div>
     </div>
@@ -12,7 +12,7 @@
                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 50px;">
                     <div class="gdlr-core-title-item-title-wrap">
                         <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 60px; font-weight: 400; letter-spacing: 0px; text-transform: none; color: #ffffff;">
-                            Choose from a wide range of <span style="font-weight: 700;">luxury rooms</span><span style="font-size: 63px; font-weight: 600; color: #193573;">.</span>
+                            Your Gateway to a <span style="font-weight: 700;">Dream Vacation</span> in Javea, Spain<span style="font-size: 63px; font-weight: 600; color: #193573;">.</span>
                             <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                         </h3>
                     </div>

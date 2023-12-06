@@ -13,7 +13,7 @@
                             >
                             <div class="gdlr-core-title-item-title-wrap">
                                 <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 50px; font-weight: 400; letter-spacing: 0px; text-transform: none;">
-                                    Our Attractions<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                                    Local Attractions<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                 </h3>
                             </div>
                             </div>
@@ -28,7 +28,7 @@
                         <div class="gdlr-core-pbf-element">
                             <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align gdlr-core-no-p-space">
                                 <div class="gdlr-core-text-box-item-content" style="font-size: 21px; font-weight: 400; letter-spacing: 0px; text-transform: none; color: #898989;">
-                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit consequat nunc iaculis dictum, viverra potenti aptent pulvinar blandit elementum at congue eget cubilia nostra interdum, condimentum penatibus tristique faucibus sapien turpis lectus nam placerat sed. Mauris auctor lobortis arcu est facilisi a, ultricies eget cras enim nunc vel, torquent sagittis pulvinar sociis aenean.</p>
                                 </div>
                             </div>
                         </div>
@@ -58,15 +58,11 @@
     <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
         <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container attractions--second-container">
            
-            <x-attraction-card-second-left img="{{asset('assets/images/hotel_1.webp')}}" title="3 Michelin Stars Restaurant, Vézère" href="#">A brasserie inspired by French cuisine, a fresh and modern place to visit and enjoy dishes always handmade of the best ingredients of the season.</x-attraction-card-second-left>
+            <x-attraction-card-second-left img="https://images.unsplash.com/photo-1611680343249-f2a4e503c54d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Dining and Cafes" href="#">The area around our apartments is bustling with a variety of restaurants and cafes, offering everything from local Spanish cuisine to international dishes. Indulge in the flavors of Javea, whether you're looking for a romantic dinner or a family meal.</x-attraction-card-second-left>
 
-            <x-attraction-card-second-right img="{{asset('assets/images/hotel_1.webp')}}" title="3The Penthouse Bar, An iconic american bar" href="#">The cozy bar area accompanying the Penthouse is a classic cocktail bar at it&#8217;s finest. Our experienced bartenders are here to offer you both the classic bewerages and the
-                newest global trends.</x-attraction-card-second-rig>
+            <x-attraction-card-second-right img="{{asset('assets/images/arenal-dream/arenal-dream_8.webp')}}" title="Explore Javea" href="#">TSteeped in history and natural beauty, Javea has much to offer. Stroll through the charming streets of the Old Town, experience the majestic views from Montgo, relax at the serene Playa de la Granadella, and don’t miss the breathtaking views from Cabo de la Nao.</x-attraction-card-second-rig>
            
-            <x-attraction-card-second-left img="{{asset('assets/images/hotel_1.webp')}}" title="The Spa. Refresh Yourself
-            " href="#">Whether you are in search of a well-appointed gym or a pampering moment on the massage table and inside the warm saunas, you can always find a place for yourself at our spa.</x-attraction-card-second-left>
-           
-           
+
         </div>
     </div>
 </div>
