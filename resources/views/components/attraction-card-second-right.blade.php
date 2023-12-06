@@ -67,7 +67,7 @@
                         class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-round"
                         style="border-width: 0px;"
                     >
-                        <img src="{{asset('assets/images/hotel_1.webp')}}" alt="" width="1300" height="716" title="bar" />
+                        <img src="{{$img}}" alt="" width="1300" height="716" loading="lazy" style="max-height:400px;object-fit:cover"/>
                     </div>
                 </div>
             </div>

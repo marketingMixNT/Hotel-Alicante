@@ -63,7 +63,7 @@
                                     </div>
                                     <ul class="slides">
                                         {{-- Arenal A3A --}}
-                                        <x-room-card href='#'
+                                        <x-room-card href="{{route('apartment-1')}}"
                                             img="{{ asset('assets/images/arenal-a3a/arenal-a3a_2.webp') }}"
                                             price="$99" title="Arena Dream A3A">
                                             {{-- <div class="tourmaster-info-wrap clearfix">
@@ -77,7 +77,7 @@
                                         </x-room-card>
                                         {{-- Arenal A3A --}}
 
-                                        <x-room-card href='#'
+                                        <x-room-card href="{{route('apartment-2')}}"
                                             img="{{ asset('assets/images/arenal-d2b/arenal-d2b_3.webp') }}"
                                             price="$99" title="Arena Dream D2B">
                                             {{-- <div class="tourmaster-info-wrap clearfix">
@@ -91,7 +91,7 @@
                                         </x-room-card>
                                         {{-- Rennes 3 --}}
 
-                                        <x-room-card href='#' img="{{ asset('assets/images/rennes-3/rennes_9.webp') }}"
+                                        <x-room-card href="{{route('apartment-3')}}" img="{{ asset('assets/images/rennes-3/rennes_9.webp') }}"
                                             price="$99" title="Rennes Arenal 3">
 
                                             {{-- <div class="tourmaster-info-wrap clearfix">
@@ -106,7 +106,7 @@
 
                                                                                 {{-- Rennes 6 --}}
 
-                                        <x-room-card href='#' img="{{ asset('assets/images/rennes-6/renes_20.webp') }}"
+                                        <x-room-card href="{{route('apartment-4')}}" img="{{ asset('assets/images/rennes-6/renes_20.webp') }}"
                                             price="$99" title="Rennes Arenal 6">
                                             {{-- <div class="tourmaster-info-wrap clearfix">
                                     <div class="tourmaster-info tourmaster-info-bed-type"><i
@@ -117,7 +117,7 @@
                                             Guests</span></div>
                                 </div> --}}
                                         </x-room-card>
-                                        <x-room-card href='#' img="{{ asset('assets/images/hotel_1.webp') }}"
+                                        <x-room-card href="{{route('apartment-5')}}" img="{{ asset('assets/images/hotel_1.webp') }}"
                                             price="$99" title="Isleta Marina 4">
                                             {{-- <div class="tourmaster-info-wrap clearfix">
                                     <div class="tourmaster-info tourmaster-info-bed-type"><i
