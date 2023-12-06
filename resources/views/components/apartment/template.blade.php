@@ -1,8 +1,8 @@
 <div class="gdlr-core-page-builder-body">
     <div class="gdlr-core-pbf-sidebar-wrapper gdlr-core-sticky-sidebar gdlr-core-js" id="gdlr-core-sidebar-wrapper-1">
         <div class="gdlr-core-pbf-sidebar-container gdlr-core-line-height-0 clearfix gdlr-core-js gdlr-core-container">
-            <div
-                class="gdlr-core-pbf-sidebar-content gdlr-core-column-45 gdlr-core-pbf-sidebar-padding gdlr-core-line-height gdlr-core-column-extend-left" style="width:100%">
+            <div class="gdlr-core-pbf-sidebar-content gdlr-core-column-45 gdlr-core-pbf-sidebar-padding gdlr-core-line-height gdlr-core-column-extend-left"
+                style="width:100%">
                 <div class="gdlr-core-pbf-sidebar-content-inner">
                     <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first">
                         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
@@ -119,7 +119,7 @@
 
                     {{ $rooms_amenities }}
 
-                    <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first"
+                    {{-- <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first"
                         id="gdlr-core-column-16">
                         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js"
                             style="margin: 0px 0px 0px 0px; padding: 45px 0px 0px 0px;">
@@ -139,13 +139,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    {{ $hotel_amenities }}
+                    {{-- {{ $hotel_amenities }} --}}
 
                 </div>
             </div>
-           
+
         </div>
     </div>
     <div class="gdlr-core-pbf-wrapper" id="gdlr-core-wrapper-2">
@@ -158,12 +158,18 @@
                         <div class="gdlr-core-sly-slider gdlr-core-js-2">
                             <ul class="slides">
 
-                                {{$gallery}}
-                              
+                                {{ $gallery }}
+
                             </ul>
                         </div>
                         <div class="gdlr-core-sly-scroll">
                             <div class="gdlr-core-sly-scroll-handle"></div>
+                        </div>
+                        <div style="display:flex;justify-content: center; margin-top:4em">
+                            <a class="gdlr-core-button gdlr-core-button-solid gdlr-core-left-align gdlr-core-button-no-border btn--primary"
+                                href="{{ $galleryHref }}" id="gdlr-core-button-id-4">
+                                <span class="gdlr-core-content">Check More Photos</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -230,13 +236,13 @@
                                                 style="color: #c4c4c4; font-size: 34px; right: -90px;"></i>
                                         </div>
                                         <ul class="slides">
-                                           
-                                            {{$otherRooms}}
-                                          
-                                           
-                                          
-                                          
-                                          
+
+                                            {{ $otherRooms }}
+
+
+
+
+
                                         </ul>
                                     </div>
                                 </div>
@@ -248,4 +254,3 @@
         </div>
     </div>
 </div>
-

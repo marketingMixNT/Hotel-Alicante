@@ -1,11 +1,11 @@
 <x-layouts.master>
 
-    <x-breadcrumbs title="Arena Dream A3A" bgi="{{ asset('assets/images/hotel_1.webp') }}" />
+    <x-breadcrumbs title="Arena Dream A3A" bgi="{{ asset('assets/images/arenal-a3a/arenal-a3a_11.webp') }}" />
 
-    <x-apartment.template title="Arena Dream A3A" price="99 EUR">
+    <x-apartment.template title="Arena Dream A3A" price="99 EUR" galleryHref="#">
 
         <x-slot name="thumbnail">
-            <x-apartment.thumbnail img="{{ asset('assets/images/hotel_1.webp') }}" />
+            <x-apartment.thumbnail img="{{ asset('assets/images/arenal-a3a/arenal-a3a_5.webp') }}" />
         </x-slot>
 
         <x-slot name="features">
@@ -21,26 +21,16 @@
 
         <x-slot name='description'>
             <p>
-                Far far away, behind the word mountains, far from the countries Vokalia
-                and Consonantia, there live the blind texts. Separated they live in
-                Bookmarksgrove right at the
-                coast of the Semantics, a large language ocean. A small river named
-                Duden flows by their place and supplies it with the necessary
-                regelialia. It is a paradisematic country,
-                in which roasted parts of sentences fly into your mouth. Even the
-                all-powerful Pointing has no control about the blind texts it is an
-                almost unorthographic life One day
-                however a small line of blind text by the name of Lorem Ipsum decided to
-                leave for the far World of Grammar.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
             </p>
             <p>
-                The Big Oxmox advised her not to do so, because there were thousands of
-                bad Commas, wild Question Marks and devious Semikoli, but the Little
-                Blind Text didn’t listen. She
-                packed her seven versalia, put her initial into the belt and made
-                herself on the way. When she reached the first hills of the Italic
-                Mountains, she had a last view back on
-                the skyline of her hometown
+                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
             </p>
         </x-slot>
 
@@ -70,7 +60,7 @@
                 <i class="gdlr-icon-hair-dryer1" style="color: #1e1e1e;"></i> </x-apartment.amenityCard>
         </x-slot>
 
-        <x-slot name="hotel_amenities">
+        {{-- <x-slot name="hotel_amenities">
             <x-apartment.amenityCard title="Gym">
                 <i class="gdlr-icon-weights" style="color: #1e1e1e;"></i> </x-apartment.amenityCard>
             <x-apartment.amenityCard title="Parking">
@@ -81,26 +71,52 @@
                 <i class="gdlr-icon-dish" style="color: #1e1e1e;"></i> </x-apartment.amenityCard>
             <x-apartment.amenityCard title="Room Service">
                 <i class="gdlr-icon-food-service-copy" style="color: #1e1e1e;"></i> </x-apartment.amenityCard>
-        </x-slot>
+        </x-slot> --}}
 
         <x-slot name="gallery">
-        <x-apartment.galleryItem src="{{asset('assets/images/hotel_1.webp')}}"/>
-        <x-apartment.galleryItem src="{{asset('assets/images/hotel_1.webp')}}"/>
-        <x-apartment.galleryItem src="{{asset('assets/images/hotel_1.webp')}}"/>
-        <x-apartment.galleryItem src="{{asset('assets/images/hotel_1.webp')}}"/>
+        <x-apartment.galleryItem src="{{asset('assets/images/arenal-a3a/arenal-a3a_10.webp')}}"/>
+        <x-apartment.galleryItem src="{{asset('assets/images/arenal-a3a/arenal-a3a_11.webp')}}"/>
+        <x-apartment.galleryItem src="{{asset('assets/images/arenal-a3a/arenal-a3a_15.webp')}}"/>
+        <x-apartment.galleryItem src="{{asset('assets/images/arenal-a3a/arenal-a3a_16.webp')}}"/>
+      
 
         </x-slot>
 
         <x-slot name='otherRooms'>
             <x-apartment.moreRoomsItem 
-            title='Arena Dream D2B'
-            price="159 EUR"
-            href="#"
+            title='Arenal D2B'
+            price="99 EUR"
+            href="{{route('apartment-2')}}"
+            img="{{asset('assets/images/arenal-d2b/arenal-d2b_1.webp')}}"
+            bed="1 King Bed"
+            guests="4 Guests"
+            />
+            <x-apartment.moreRoomsItem 
+            title='Rennes Areal 3'
+            price="99 EUR"
+            href="{{route('apartment-3')}}"
+                        img="{{asset('assets/images/rennes-3/rennes_6.webp')}}"
+            bed="1 King Bed"
+            guests="4 Guests"
+            />
+            <x-apartment.moreRoomsItem 
+            title='Rennes Areal 6'
+            price="99 EUR"
+            href="{{route('apartment-4')}}"
+            img="{{asset('assets/images/rennes-6/renes_29.webp')}}"
+            bed="1 King Bed"
+            guests="4 Guests"
+            />
+            <x-apartment.moreRoomsItem 
+            title='Isleta Marina'
+            price="99 EUR"
+            href="{{route('apartment-5')}}"
             img="{{asset('assets/images/hotel_1.webp')}}"
             bed="1 King Bed"
             guests="4 Guests"
             />
         </x-slot>
+        
     </x-apartment.template>
 
 

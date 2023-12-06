@@ -130,7 +130,7 @@
                 <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                     <a
                         class="gdlr-core-button gdlr-core-button-solid gdlr-core-left-align gdlr-core-button-no-border btn--primary"
-                        href="/hotale/hotel1/room-search/?room_amount=1&#038;room-search="
+                        href="{{route('gallery')}}"
                         id="gdlr-core-button-id-4"
                     >
                         <span class="gdlr-core-content">Check More Photos</span>
