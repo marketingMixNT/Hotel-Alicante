@@ -2,9 +2,6 @@
 
 
 body{
-    // p{
-    //     color:colors.$font !important
-    // }
     .gdlr-core-divider-line.gdlr-core-skin-divider{
         border-color:colors.$main-600;
         border-width:3px
@@ -26,7 +23,6 @@ background-color:colors.$main-400
 }
 
 .rooms-container{
-    // background-color: colors.$main-200;
     background-color: white;
 }
 
@@ -73,4 +69,6 @@ background-color:colors.$main-400
         display: none;
     }
 }
+
+
 
