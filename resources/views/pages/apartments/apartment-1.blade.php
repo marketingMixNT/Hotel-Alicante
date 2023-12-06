@@ -2,7 +2,7 @@
 
     <x-breadcrumbs title="Arena Dream A3A" bgi="{{ asset('assets/images/arenal-a3a/arenal-a3a_11.webp') }}" />
 
-    <x-apartment.template title="Arena Dream A3A" price="99 EUR" galleryHref="#">
+    <x-apartment.template title="Arena Dream A3A" price="99 EUR" galleryHref="{{route('gallery-apartment-1')}}">
 
         <x-slot name="thumbnail">
             <x-apartment.thumbnail img="{{ asset('assets/images/arenal-a3a/arenal-a3a_5.webp') }}" />

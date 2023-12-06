@@ -30,4 +30,12 @@ Route::prefix('/apartments')->group(function () {
 
 Route::view('/gallery','pages.gallery')->name('gallery');
 
+Route::prefix('/gallery')->group(function () {
+    Route::view('/arena-dream-a3a', 'pages.gallery.apartment-1')->name('gallery-apartment-1');
+    Route::view('/arena-dream-d2b', 'pages.gallery.apartment-2')->name('gallery-apartment-2');
+    Route::view('/rennes-areal-3', 'pages.gallery.apartment-3')->name('gallery-apartment-3');
+    Route::view('/rennes-areal-6', 'pages.gallery.apartment-4')->name('gallery-apartment-4');
+    Route::view('/isleta-marina', 'pages.gallery.apartment-5')->name('gallery-apartment-5');
+});
+
 Route::view('/contact','pages.contact.index')->name('contact');
