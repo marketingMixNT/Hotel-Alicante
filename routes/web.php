@@ -36,6 +36,7 @@ Route::prefix('/gallery')->group(function () {
     Route::view('/rennes-areal-3', 'pages.gallery.apartment-3')->name('gallery-apartment-3');
     Route::view('/rennes-areal-6', 'pages.gallery.apartment-4')->name('gallery-apartment-4');
     Route::view('/isleta-marina', 'pages.gallery.apartment-5')->name('gallery-apartment-5');
+    Route::view('/other', 'pages.gallery.other')->name('gallery-other');
 });
 
 Route::view('/contact','pages.contact.index')->name('contact');

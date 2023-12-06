@@ -1,6 +1,7 @@
 @use './utilities/colors';
 
 
+
 body{
     .gdlr-core-divider-line.gdlr-core-skin-divider{
         border-color:colors.$main-600;
@@ -69,6 +70,5 @@ background-color:colors.$main-400
         display: none;
     }
 }
-
 
 
