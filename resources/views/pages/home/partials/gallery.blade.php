@@ -83,7 +83,7 @@
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
                             style="
-                                background-image: url({{asset('assets/images/arenal-dream/arenal-dream_12git.webp')}});
+                                background-image: url({{asset('assets/images/arenal-dream/arenal-dream_12.webp')}});
                                 opacity: 0.8;
                                 background-size: cover;
                                 background-position: center;
