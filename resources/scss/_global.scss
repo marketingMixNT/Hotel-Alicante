@@ -4,7 +4,7 @@
 
 body{
     .gdlr-core-divider-line.gdlr-core-skin-divider{
-        border-color:colors.$main-600;
+        border-color:colors.$main-400;
         border-width:3px
     }
     
@@ -46,7 +46,7 @@ background-color:colors.$main-400
 .btn{
 
     &--primary{
-        background-color: colors.$main-400 !important;
+        background-color: colors.$secondary-400 !important;
         border-radius: 0px !important;
 
         
@@ -71,4 +71,6 @@ background-color:colors.$main-400
     }
 }
 
-
+.logo{
+    width: 150px !important
+}

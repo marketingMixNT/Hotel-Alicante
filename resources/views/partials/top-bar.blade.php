@@ -15,9 +15,10 @@
                         <img
                             src="{{asset('assets/logo.png')}}"
                             alt="hotel logo"
-                            width="40"
-                            height="40"
+                            width="150"
+                            height="150"
                             title="logo-hotel-fixedx1"
+                            class="logo"
                             
                         />
                     </a>

@@ -16,7 +16,7 @@
             <div class="tourmaster-room-content-wrap gdlr-core-skin-e-background gdlr-core-js"
             data-sync-height="room-item-6"
             style="padding-top: 75px; padding-bottom: 45px;">
-            <div class="tourmaster-price-wrap tourmaster-with-bg"><span
+            <div class="tourmaster-price-wrap tourmaster-with-bg price-box"><span
                     class="tourmaster-head">From</span><span
                     class="tourmaster-price">{{$price}}</span></div>
             <h3 class="tourmaster-room-title gdlr-core-skin-title"
