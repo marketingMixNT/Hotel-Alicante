@@ -8,11 +8,11 @@
                             src="{{asset('assets/logo.png')}}"
                             alt=""
                             width="40"
-                            height="40"
+                            height="40" style="width:120px"
                         />
                     </a>
                     <a class="hotale-orig-logo" href="{{route('home')}}">
-                        <img src="{{asset('assets/logo.png')}}" alt="" width="110" height="110" title="logo-hotel-mobile" />
+                        <img src="{{asset('assets/logo.png')}}" alt="" width="110" height="110" title="logo-hotel-mobile" style="width:120px"/>
                     </a>
                 </div>
             </div>

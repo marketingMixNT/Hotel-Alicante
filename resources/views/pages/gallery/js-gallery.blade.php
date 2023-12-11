@@ -14,14 +14,11 @@
                                 class="gdlr-core-gallery-item gdlr-core-item-pdb clearfix gdlr-core-gallery-item-style-grid">
 
 
-                                {{-- @foreach (File::files(public_path('assets/images/arenal-dream')) as $image)
-                                    <x-gallery-item src="{{ asset('/assets/images/arenal-dream/' . $image->getFilename()) }}"
-                                        alt="Javea Hotel Photo" />
-                                @endforeach --}}
+                                
+                                
 
                                 {{-- NAVIGATION --}}
-                                <div class="items-links "
-                                   >
+                                <div class="items-links ">
                                     <button
                                         class="item-link gdlr-core-button gdlr-core-button-solid gdlr-core-center-align gdlr-core-button-no-border btn--primary"
                                         data-name="a3a">a3a</button>
@@ -43,8 +40,7 @@
                                 </div>
 
                                 {{-- IMAGES --}}
-                                <div class="gallery" style="position:relative">
-                                    
+                                <div class="loader" style="position:relative">
 
                                     {{-- ARENAL A3A --}}
                                     @foreach (File::files(public_path('assets/images/arenal-a3a')) as $image)
@@ -72,7 +68,7 @@
                                             src="{{ asset('/assets/images/rennes-6/' . $image->getFilename()) }}"
                                             alt="Javea Hotel Photo" data-name="rennes6" />
                                     @endforeach
-                                    {{-- ISLETA--}}
+                                    {{-- ISLETA --}}
                                     @foreach (File::files(public_path('assets/images/arenal-dream')) as $image)
                                         <x-gallery-item
                                             src="{{ asset('/assets/images/arenal-dream/' . $image->getFilename()) }}"
@@ -85,7 +81,7 @@
                                             alt="Javea Hotel Photo" data-name="other" />
                                     @endforeach
 
-                            
+
                                 </div>
 
 

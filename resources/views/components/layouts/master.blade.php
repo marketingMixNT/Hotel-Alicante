@@ -8,6 +8,8 @@
     <title>Hotel</title>
     @include('includes.styles')
     @include('includes.fonts')
+    @include('includes.favicons')
+
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
 </head>
