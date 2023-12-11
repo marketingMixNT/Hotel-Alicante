@@ -4,9 +4,8 @@ const filterInfo = document.querySelector('.info');
 
 if (filterItem && filterImages.length > 0) {
     window.addEventListener('load', () => {
-        const initialFilter = 'a3a'; // Początkowe zaznaczenie
+        const initialFilter = 'a3a';
 
-        // Filtruj na podstawie początkowego zaznaczenia dla .project-img
         filterImages.forEach((image) => {
             let filterImageName = image.getAttribute('data-name');
             if (filterImageName === initialFilter) {

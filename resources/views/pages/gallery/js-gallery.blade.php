@@ -1,6 +1,6 @@
 <x-layouts.master>
 
-    <x-breadcrumbs title="Other Photos" bgi="{{ asset('assets/images/arenal-dream/arenal-dream_5.webp') }}" />
+    <x-breadcrumbs title="Gallery" bgi="{{ asset('assets/images/arenal-dream/arenal-dream_5.webp') }}" />
 
     <div class="hotale-page-wrapper" id="hotale-page-wrapper">
         <div class="gdlr-core-page-builder-body">
@@ -19,15 +19,23 @@
                                         alt="Javea Hotel Photo" />
                                 @endforeach --}}
 
-                                <div class="items-links ">
-                                    <button class="item-link" data-name="arenal-dream">arenal-dream</button>
-                                    <button class="item-link" data-name="a3a">a3a</button>
-                                    <button class="item-link" data-name="d2b">d2b</button>
+                                {{-- NAVIGATION --}}
+                                <div class="items-links " style="display: flex;justify-content: center;align-items: center;gap:1em;margin-bottom:4em">
+                                    <button class="item-link gdlr-core-button gdlr-core-button-solid gdlr-core-center-align gdlr-core-button-no-border btn--primary" data-name="a3a">a3a</button>
+                                    <button class="item-link gdlr-core-button gdlr-core-button-solid gdlr-core-center-align gdlr-core-button-no-border btn--primary" data-name="d2b">d2b</button>
+                                    <button class="item-link gdlr-core-button gdlr-core-button-solid gdlr-core-center-align gdlr-core-button-no-border btn--primary" data-name="rennes-3">rennes 3</button>
+                                    <button class="item-link gdlr-core-button gdlr-core-button-solid gdlr-core-center-align gdlr-core-button-no-border btn--primary" data-name="rennes-6">rennes 6</button>
+                                    <button class="item-link gdlr-core-button gdlr-core-button-solid gdlr-core-center-align gdlr-core-button-no-border btn--primary" data-name="isleta">isleta marina</button>
+                                    <button class="item-link gdlr-core-button gdlr-core-button-solid gdlr-core-center-align gdlr-core-button-no-border btn--primary" data-name="other">other</button>
+
+
+
+
                                 </div>
 
 
 
-                                <div class="info">
+                                {{-- <div class="info">
                                     <div data-name="arenal-dream">
                                         <h3>arenal dream</h3>
                                     </div>
@@ -37,19 +45,78 @@
                                     <div data-name="d2b">
                                         <h3>d2b</h3>
                                     </div>
-                                </div>
+                                </div> --}}
 
 
-
+                                {{-- IMAGES --}}
                                 <div class="gallery">
-                                    
-                                        <img class="project-img" src="{{ asset('/assets/images/arenal-dream/arenal-dream_1.webp')}}" alt="" data-name="arenal-dream">
 
-                                        <img class="project-img" src="{{ asset('/assets/images/arenal-a3a/arenal-a3a_1.webp')}}" alt="" data-name="a3a">
+                                    {{-- ARENAL A3A --}}
+                                    <x-gallery-item src="{{ asset('/assets/images/arenal-a3a/arenal-a3a_1.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="a3a" />
+                                    <x-gallery-item src="{{ asset('/assets/images/arenal-a3a/arenal-a3a_2.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="a3a" />
+                                    <x-gallery-item src="{{ asset('/assets/images/arenal-a3a/arenal-a3a_3.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="a3a" />
+                                    <x-gallery-item src="{{ asset('/assets/images/arenal-a3a/arenal-a3a_4.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="a3a" />
+                                    {{-- ARENAL D2B --}}
+                                    <x-gallery-item src="{{ asset('/assets/images/arenal-d2b/arenal-d2b_1.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="d2b" />
+                                    <x-gallery-item src="{{ asset('/assets/images/arenal-d2b/arenal-d2b_2.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="d2b" />
+                                    <x-gallery-item src="{{ asset('/assets/images/arenal-d2b/arenal-d2b_3.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="d2b" />
+                                    <x-gallery-item src="{{ asset('/assets/images/arenal-d2b/arenal-d2b_4.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="d2b" />
+                                    {{-- RENNES AREAL 3 --}}
+                                    <x-gallery-item src="{{ asset('/assets/images/rennes-3/rennes_1.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="rennes-3" />
+                                    <x-gallery-item src="{{ asset('/assets/images/rennes-3/rennes_2.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="rennes-3" />
+                                    <x-gallery-item src="{{ asset('/assets/images/rennes-3/rennes_3.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="rennes-3" />
+                                    <x-gallery-item src="{{ asset('/assets/images/rennes-3/rennes_4.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="rennes-3" />
+                                    {{-- RENNES AREAL 6 --}}
+                                    <x-gallery-item src="{{ asset('/assets/images/rennes-6/renes_1.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="rennes-6" />
+                                    <x-gallery-item src="{{ asset('/assets/images/rennes-6/renes_2.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="rennes-6" />
+                                    <x-gallery-item src="{{ asset('/assets/images/rennes-6/renes_3.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="rennes-6" />
+                                    <x-gallery-item src="{{ asset('/assets/images/rennes-6/renes_4.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="rennes-6" />
+                                    {{-- RENNES AREAL 6 --}}
+                                    <x-gallery-item
+                                        src="{{ asset('/assets/images/arenal-dream/arenal-dream_1.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="isleta" />
+                                    <x-gallery-item
+                                        src="{{ asset('/assets/images/arenal-dream/arenal-dream_2.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="isleta" />
+                                    <x-gallery-item
+                                        src="{{ asset('/assets/images/arenal-dream/arenal-dream_3.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="isleta" />
+                                    <x-gallery-item
+                                        src="{{ asset('/assets/images/arenal-dream/arenal-dream_5.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="isleta" />
+                                    {{-- RENNES AREAL 6 --}}
+                                    <x-gallery-item
+                                        src="{{ asset('/assets/images/arenal-dream/arenal-dream_1.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="other" />
+                                    <x-gallery-item
+                                        src="{{ asset('/assets/images/arenal-dream/arenal-dream_2.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="other" />
+                                    <x-gallery-item
+                                        src="{{ asset('/assets/images/arenal-dream/arenal-dream_3.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="other" />
+                                    <x-gallery-item
+                                        src="{{ asset('/assets/images/arenal-dream/arenal-dream_5.webp') }}"
+                                        alt="Javea Hotel Photo" data-name="other" />
 
 
-                                        <img class="project-img" src="{{ asset('/assets/images/arenal-d2b/arenal-d2b_1.webp')}}" alt="" data-name="d2b">
-                                        <img class="project-img" src="{{ asset('/assets/images/arenal-d2b/arenal-d2b_2.webp')}}" alt="" data-name="d2b">
+
+
                                 </div>
 
 

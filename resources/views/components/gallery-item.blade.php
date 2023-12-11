@@ -1,4 +1,4 @@
-<div class="gdlr-core-item-list gdlr-core-gallery-column gdlr-core-column-15 gdlr-core-item-pdlr gdlr-core-item-mgb">
+<div class="gdlr-core-item-list gdlr-core-gallery-column gdlr-core-column-15 gdlr-core-item-pdlr gdlr-core-item-mgb project-img" {{$attributes}}>
     <div class="gdlr-core-gallery-list gdlr-core-media-image">
         <a
             class="gdlr-core-lightgallery gdlr-core-js"

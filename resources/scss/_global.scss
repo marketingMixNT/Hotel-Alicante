@@ -49,16 +49,19 @@ background-color:colors.$main-400
     &--primary{
         background-color: colors.$secondary-400 !important;
         border-radius: 0px !important;
+        cursor: pointer;
 
         
     }
     &--secondary{
         border:1px solid colors.$main-400 !important;
-        color: colors.$main-400 !important
+        color: colors.$main-400 !important;
+        cursor: pointer;
     }
     &--third{
         border:1px solid white !important;
-        color: white !important
+        color: white !important;
+        cursor: pointer;
     }
 }
 
@@ -74,4 +77,9 @@ background-color:colors.$main-400
 
 .logo{
     width: 150px !important
+}
+.menu-active{
+    border:1px solid colors.$main-400 !important;
+    background-color: colors.$main-400 !important;
+        color: white !important
 }
