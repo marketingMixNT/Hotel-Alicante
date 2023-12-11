@@ -21,7 +21,7 @@
 
                                 {{-- NAVIGATION --}}
                                 <div class="items-links "
-                                    style="display: flex;justify-content: center;align-items: center;gap:1em;margin-bottom:4em">
+                                   >
                                     <button
                                         class="item-link gdlr-core-button gdlr-core-button-solid gdlr-core-center-align gdlr-core-button-no-border btn--primary"
                                         data-name="a3a">a3a</button>
@@ -43,7 +43,8 @@
                                 </div>
 
                                 {{-- IMAGES --}}
-                                <div class="gallery">
+                                <div class="gallery" style="position:relative">
+                                    
 
                                     {{-- ARENAL A3A --}}
                                     @foreach (File::files(public_path('assets/images/arenal-a3a')) as $image)

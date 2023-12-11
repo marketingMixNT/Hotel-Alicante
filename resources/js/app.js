@@ -1,6 +1,6 @@
 import "./bootstrap";
 import "./footerYear";
 // import "./cookieBar";
-// import './navigationBgc';
+import './navigationBgc';
 import "./gallery";
 

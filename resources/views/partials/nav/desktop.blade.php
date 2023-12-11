@@ -1,6 +1,14 @@
 <div class="hotale-navigation hotale-item-pdlr clearfix hotale-navigation-submenu-indicator desktop-nav-container">
    
     <div class="hotale-main-menu" id="hotale-main-menu">
+
+        <div class="hotale-main-menu-right-wrap clearfix hotale-item-mglr hotale-navigation-top logo-nav" style="left:0;top:.3em;display:none">
+            <div class="tourmaster-room-navigation-checkout-wrap">
+              <img src="{{asset('assets/logo--dark.png')}}" alt="logo of Javea" width="130px">
+              
+            </div>
+        </div>
+
         <ul id="menu-main-navigation-1" class="sf-menu">
         {{--NAV-ITEMS--}}
        @include('partials.nav.nav-items')

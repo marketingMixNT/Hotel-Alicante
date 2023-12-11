@@ -1,85 +1,89 @@
-@use './utilities/colors';
+@use "./utilities/colors";
 
-
-
-body{
-    .gdlr-core-divider-line.gdlr-core-skin-divider{
-        border-color:colors.$main-400;
-        border-width:3px
+body {
+    .gdlr-core-divider-line.gdlr-core-skin-divider {
+        border-color: colors.$main-400;
+        border-width: 3px;
     }
-    
 }
 
-.hotale-footer-wrapper{
-    background-color: colors.$main-400 !important
-
+.hotale-footer-wrapper {
+    background-color: colors.$main-400 !important;
 }
 
-.hotale-body-wrapper{
-    background-color: colors.$bgc !important
+.hotale-body-wrapper {
+    background-color: colors.$bgc !important;
 }
 
-.contact-section{
-background-color:colors.$main-400
+.contact-section {
+    background-color: colors.$main-400;
 }
 
-.rooms-container{
+.rooms-container {
     background-color: white;
 }
 
-.desktop-nav-container,.attractions-container,.cta-container,.testimonial-container,.attractions--second-container,.testimonial-container{
+.desktop-nav-container,
+.attractions-container,
+.cta-container,
+.testimonial-container,
+.attractions--second-container,
+.testimonial-container {
     background-color: white;
 }
 
-
-.tourmaster-price-wrap.tourmaster-with-bg{
+.tourmaster-price-wrap.tourmaster-with-bg {
     background-color: colors.$secondary-400 !important;
-
 }
 
-
-
-.hotale-body-wrapper.hotale-with-frame, body.hotale-full .hotale-fixed-footer{
-    margin:0
+.hotale-body-wrapper.hotale-with-frame,
+body.hotale-full .hotale-fixed-footer {
+    margin: 0;
 }
 
-
-.btn{
-
-    &--primary{
+.btn {
+    &--primary {
         background-color: colors.$secondary-400 !important;
         border-radius: 0px !important;
         cursor: pointer;
-
-        
     }
-    &--secondary{
-        border:1px solid colors.$main-400 !important;
+    &--secondary {
+        border: 1px solid colors.$main-400 !important;
         color: colors.$main-400 !important;
         cursor: pointer;
     }
-    &--third{
-        border:1px solid white !important;
+    &--third {
+        border: 1px solid white !important;
         color: white !important;
         cursor: pointer;
     }
 }
 
-
-@media(max-width:768px){
-    .attraction-card-second-right{
-        display:flex;flex-direction:column-reverse
+@media (max-width: 768px) {
+    .attraction-card-second-right {
+        display: flex;
+        flex-direction: column-reverse;
     }
-    .gallery-first-img{
+    .gallery-first-img {
         display: none;
     }
 }
 
-.logo{
-    width: 150px !important
+.logo {
+    width: 150px !important;
 }
-.menu-active{
-    border:1px solid colors.$main-400 !important;
+
+.items-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 4em;
+}
+
+.menu-active {
+    border: 1px solid colors.$main-400 !important;
     background-color: colors.$main-400 !important;
-        color: white !important
+    color: white !important;
 }
