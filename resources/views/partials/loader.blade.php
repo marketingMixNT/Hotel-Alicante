@@ -1,1 +1,1 @@
-<div id="preloader"><p>load....</p></div>
+<div id="loader">load</div>

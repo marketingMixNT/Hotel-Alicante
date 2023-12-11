@@ -25,13 +25,13 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="tourmaster-room-title-item tourmaster-item-mglr tourmaster-item-pdb clearfix"
                                         style="padding-bottom: 35px;">
-                                        <h3 class="tourmaster-room-title-item-title">{{ $title }}</h3>
-                                        <div class="tourmaster-room-title-price">
+                                        <h3 class="tourmaster-room-title-item-title" style="text-align:center">{{ $title }}</h3>
+                                        {{-- <div class="tourmaster-room-title-price">
                                             <div class="tourmaster-head">
                                                 <span class="tourmaster-label">From</span><span
                                                     class="tourmaster-price">{{ $price }}</span>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                                 <div class="gdlr-core-pbf-element">
@@ -47,7 +47,7 @@
                     </div>
 
                     {{-- FEATURES --}}
-                    {{ $features }}
+                    {{-- {{ $features }} --}}
 
 
                     <div class="gdlr-core-pbf-column gdlr-core-column-20">

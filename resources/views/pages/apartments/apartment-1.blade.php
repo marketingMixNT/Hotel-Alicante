@@ -20,18 +20,50 @@
         </x-slot>
 
         <x-slot name='description'>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
-            </p>
+            <div class="description__heading"> 
+                <h5>Welcome to your next escape at Arenal Dream in the heart of Javea, Spain, where this stunning 60m2 penthouse provides an intimate yet lavish getaway. Boasting the same elegant design and premium location as our larger suite, this abode is a mere 200 meters from the Arenal Beach, offering a perfect blend of luxury and comfort for your seaside holiday.</h5>
+            </div>
+           
+
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Location:</h3>
+                    <p>Residing in the exclusive Arenal Dream complex, this penthouse offers quick access to the beach and the vibrant life of Javea's promenade.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Accommodation:</h3>
+                    <p>This penthouse is expertly laid out with two bedrooms, each designed to offer a peaceful night's rest for up to four guests. The master bedroom includes an en-suite bathroom, and there's a second full bathroom to provide privacy and convenience for all occupants.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Bathroom:</h3>
+                    <p>Two modern bathrooms are appointed with high-end fixtures and fittings, complete with plush towels, providing a serene environment to unwind or prepare for the day’s adventures.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Kitchen:</h3>
+                    <p>The open-plan, fully equipped kitchen is a statement of form and functionality, featuring a dishwasher, microwave, full-size refrigerator, oven, and ceramic hob. It’s a delightful space for whipping up your favorite dishes or experimenting with local Spanish cuisine.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Living Area:</h3>
+                    <p>The living area, complete with a 50-inch TV, is designed for relaxation and entertainment. This space flows seamlessly onto a private balcony, where you can enjoy the fresh sea air and alfresco dining against the backdrop of Javea's skyline.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Rooftop Terrace:</h3>
+                    <p>The penthouse features a private rooftop terrace, providing a secluded spot for sunbathing or enjoying evening cocktails under the stars. While this terrace doesn’t include a grill, it remains a versatile outdoor space for leisure and relaxation.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Amenities:</h3>
+                    <p>With central air conditioning and heating, the penthouse ensures comfort in all seasons. A washing machine is also available, catering to all the practicalities of home living.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Parking:</h3>
+                    <p>A secure parking spot is provided in the underground garage, ensuring easy access and added security for your vehicle.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Arenal Dream Complex:</h3>
+                    <p>As a resident of Arenal Dream, you'll have exclusive access to the complex's amenities, including the garden, pool area where you can swim, sunbathe, or simply relax in the peaceful surrounds.</p>
+            </div>
+            <div class="description__summary"> 
+                <h6>This penthouse is perfectly sized for families, couples, or a small group of friends, providing all the essentials for a sublime stay. With its prime location, sophisticated style, and comprehensive amenities, it promises to be a base where memories are made. Experience the enchantment of Javea at Arenal Dream, where every detail is tailored for your comfort and enjoyment.</h6>
+            </div>
         </x-slot>
 
         <x-slot name="rooms_amenities">

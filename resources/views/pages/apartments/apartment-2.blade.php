@@ -2,13 +2,13 @@
 
     <x-breadcrumbs title="Arena Dream D2B" bgi="{{ asset('assets/images/arenal-d2b/arenal-d2b_16.webp') }}" />
 
-    <x-apartment.template title="Arena Dream D3B" price="99 EUR" galleryHref="{{route('gallery-apartment-2')}}">
+    <x-apartment.template title="Arena Dream D2B" price="99 EUR" galleryHref="{{ route('gallery-apartment-2') }}">
 
         <x-slot name="thumbnail">
             <x-apartment.thumbnail img="{{ asset('assets/images/arenal-d2b/arenal-d2b_8.webp') }}" />
         </x-slot>
 
-        <x-slot name="features">
+        {{-- <x-slot name="features">
             <x-apartment.featureCard title="Bed" desc="1 king bed">
                 <i class="gdlr-icon-double-bed2"
                     style="font-size: 33px; line-height: 33px; width: 33px; color: #0a0a0a;"></i>
@@ -17,21 +17,59 @@
                 <i class="gdlr-icon-resize"
                     style="font-size: 34px; line-height: 34px; width: 34px; color: #0a0a0a;"></i>
             </x-apartment.featureCard>
-        </x-slot>
+        </x-slot> --}}
 
         <x-slot name='description'>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit vitae leo aliquam, euismod ut himenaeos nisi placerat semper lacinia eleifend molestie senectus natoque, platea scelerisque quis mi viverra suspendisse dis sociosqu nam. Justo parturient dui curae accumsan sollicitudin eget egestas etiam integer velit eu pharetra potenti,
-            </p>
+            <div class="description__heading"> 
+                <h5>Exclusive 75m2 penthouse suite beckons you to a vacation experience like no other. Positioned a mere 200
+                meters from the soft sands of Arenal Beach, this penthouse combines the tranquility of the sea with the
+                elegance of sophisticated living.</h5>
+            </div>
+           
+
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Location:</h3>
+                    <p>Set within the esteemed Arenal Dream complex, your stay places you moments away from the bustling
+                        promenade, offering the perfect blend of serenity and convenience.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Accommodation:</h3>
+                    <p>The penthouse features three cozy designed bedrooms, accommodating up to six guests. The master
+                        bedroom is a sanctuary with a comfortable double bed, while the two additional bedrooms are
+                        furnished with two single beds, that can be prepared as duble, all complemented by ample
+                        built-in wardrobe space.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Bathroom:</h3>
+                    <p>Two comfortable bathrooms with necessary amenities and plush towels, ensuring a refreshing start and end to your day.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Kitchen:</h3>
+                    <p>A culinary haven awaits in the fully equipped kitchen, complete with modern appliances such as a dishwasher, microwave, refrigerator, oven, and ceramic hob. It’s an inviting space for both cooking enthusiasts and those seeking the simplicity of vacation dining.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Living Area:</h3>
+                    <p>The spacious living area is adorned with a large-screen TV 50-inch TV and merges into an 18m2 dining balcony featuring an 8-seater table and a cozy outdoor sofa. It’s an idyllic setting for memorable meals and relaxing evenings.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Rooftop Terrace:</h3>
+                    <p>A private 25m2 rooftop terrace elevates your stay to new heights, offering garden furniture, sun loungers, and a gas  grill. Revel in the panoramic views and bask in the Javea sun for the ultimate leisure experience.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Amenities:</h3>
+                    <p>Year-round comfort is assured with central air conditioning and heating. A washing machine is also provided for your convenience, accommodating both short-term escapes and extended retreats.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Parking:</h3>
+                    <p>A dedicated underground parking space is included, adding peace of mind and ease to your luxurious stay.</p>
+            </div>
+            <div style="margin-top:1em">
+                <h6 style="margin-bottom:0">Arenal Dream Complex:</h3>
+                    <p>Enjoy exclusive access to the community amenities, including a swimming pool and shaded areas perfect for lounging away from the midday sun.</p>
+            </div>
+            <div class="description__summary"> 
+                <h6>Just a 200-meter stroll from the beach and with ample living and outdoor space, this penthouse at Arenal Dream is a premium choice for those who seek the finest in comfort, location, and luxury. Discover the joy of Javea in a home that promises an unforgettable escape. Book your dream holiday today.</h6>
+            </div>
         </x-slot>
 
         <x-slot name="rooms_amenities">
@@ -74,49 +112,25 @@
         </x-slot> --}}
 
         <x-slot name="gallery">
-        <x-apartment.galleryItem src="{{asset('assets/images/arenal-d2b/arenal-d2b_4.webp')}}"/>
-        <x-apartment.galleryItem src="{{asset('assets/images/arenal-a3a/arenal-a3a_10.webp')}}"/>
-        <x-apartment.galleryItem src="{{asset('assets/images/arenal-a3a/arenal-a3a_11.webp')}}"/>
-        <x-apartment.galleryItem src="{{asset('assets/images/arenal-a3a/arenal-a3a_16.webp')}}"/>
-      
+            <x-apartment.galleryItem src="{{ asset('assets/images/arenal-d2b/arenal-d2b_4.webp') }}" />
+            <x-apartment.galleryItem src="{{ asset('assets/images/arenal-a3a/arenal-a3a_10.webp') }}" />
+            <x-apartment.galleryItem src="{{ asset('assets/images/arenal-a3a/arenal-a3a_11.webp') }}" />
+            <x-apartment.galleryItem src="{{ asset('assets/images/arenal-a3a/arenal-a3a_16.webp') }}" />
+
 
         </x-slot>
 
         <x-slot name='otherRooms'>
-            <x-apartment.moreRoomsItem 
-            title='Arenal A3a'
-            price="99 EUR"
-            href="{{route('apartment-1')}}"
-            img="{{asset('assets/images/arenal-a3a/arenal-a3a_1.webp')}}"
-            bed="1 King Bed"
-            guests="4 Guests"
-            />
-            <x-apartment.moreRoomsItem 
-            title='Rennes Areal 3'
-            price="99 EUR"
-            href="{{route('apartment-3')}}"
-                        img="{{asset('assets/images/rennes-3/rennes_6.webp')}}"
-            bed="1 King Bed"
-            guests="4 Guests"
-            />
-            <x-apartment.moreRoomsItem 
-            title='Rennes Areal 6'
-            price="99 EUR"
-            href="{{route('apartment-4')}}"
-            img="{{asset('assets/images/rennes-6/renes_29.webp')}}"
-            bed="1 King Bed"
-            guests="4 Guests"
-            />
-            <x-apartment.moreRoomsItem 
-            title='Isleta Marina'
-            price="99 EUR"
-            href="{{route('apartment-5')}}"
-            img="{{asset('assets/images/hotel_1.webp')}}"
-            bed="1 King Bed"
-            guests="4 Guests"
-            />
+            <x-apartment.moreRoomsItem title='Arenal A3a' price="99 EUR" href="{{ route('apartment-1') }}"
+                img="{{ asset('assets/images/arenal-a3a/arenal-a3a_1.webp') }}" bed="1 King Bed" guests="4 Guests" />
+            <x-apartment.moreRoomsItem title='Rennes Areal 3' price="99 EUR" href="{{ route('apartment-3') }}"
+                img="{{ asset('assets/images/rennes-3/rennes_6.webp') }}" bed="1 King Bed" guests="4 Guests" />
+            <x-apartment.moreRoomsItem title='Rennes Areal 6' price="99 EUR" href="{{ route('apartment-4') }}"
+                img="{{ asset('assets/images/rennes-6/renes_29.webp') }}" bed="1 King Bed" guests="4 Guests" />
+            <x-apartment.moreRoomsItem title='Isleta Marina' price="99 EUR" href="{{ route('apartment-5') }}"
+                img="{{ asset('assets/images/hotel_1.webp') }}" bed="1 King Bed" guests="4 Guests" />
         </x-slot>
-        
+
     </x-apartment.template>
 
 

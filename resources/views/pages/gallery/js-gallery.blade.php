@@ -5,8 +5,14 @@
     <div class="hotale-page-wrapper" id="hotale-page-wrapper">
         <div class="gdlr-core-page-builder-body">
             <div class="gdlr-core-pbf-wrapper" style="padding: 100px 20px 30px 20px;">
+
+               
                 <div class="gdlr-core-pbf-background-wrap"></div>
                 <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
+
+                    {{-- <div id="loader">load</div> --}}
+                    <x-loader/>
+
                     <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full">
 
                         <div class="gdlr-core-pbf-element">
@@ -14,8 +20,8 @@
                                 class="gdlr-core-gallery-item gdlr-core-item-pdb clearfix gdlr-core-gallery-item-style-grid">
 
 
-                                
-                                
+
+
 
                                 {{-- NAVIGATION --}}
                                 <div class="items-links ">
