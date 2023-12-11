@@ -23,6 +23,9 @@
           
         </ul>
     </li>
+
+    <li class="menu-ite hotale-normal-menu"><a href="{{route('attractions')}}">Attractions</a></li>
+
    
     <li class="menu-item menu-item-has-children hotale-normal-menu">
         <a href="" class="sf-with-ul-pre">Gallery</a>
@@ -44,6 +47,9 @@
             </li>
             <li class="menu-item" data-size="60">
                 <a href="{{route('gallery-other')}}">Other</a>
+            </li>
+            <li class="menu-item" data-size="60">
+                <a href="{{route('js-gallery')}}">JS Gallery</a>
             </li>
           
         </ul>

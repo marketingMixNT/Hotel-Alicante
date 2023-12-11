@@ -28,6 +28,9 @@ Route::prefix('/apartments')->group(function () {
     Route::view('/isleta-marina', 'pages.apartments.apartment-5')->name('apartment-5');
 });
 
+
+Route::view('/attractions','pages.attractions')->name('attractions');
+
 Route::view('/gallery','pages.gallery')->name('gallery');
 
 Route::prefix('/gallery')->group(function () {
@@ -37,6 +40,8 @@ Route::prefix('/gallery')->group(function () {
     Route::view('/rennes-areal-6', 'pages.gallery.apartment-4')->name('gallery-apartment-4');
     Route::view('/isleta-marina', 'pages.gallery.apartment-5')->name('gallery-apartment-5');
     Route::view('/other', 'pages.gallery.other')->name('gallery-other');
+    Route::view('/js-gallery', 'pages.gallery.js-gallery')->name('js-gallery');
+
 });
 
 Route::view('/contact','pages.contact.index')->name('contact');
