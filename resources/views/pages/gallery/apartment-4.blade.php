@@ -1,4 +1,6 @@
 <x-layouts.master>
+    {{-- @section('title', '')
+    @section('description', '') --}}
 
     <x-breadcrumbs title="Rennes Areal 6 Gallery" bgi="{{asset('assets/images/rennes-6/renes_5.webp')}}"/>
   

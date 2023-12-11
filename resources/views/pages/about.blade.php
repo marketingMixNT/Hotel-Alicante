@@ -1,4 +1,6 @@
 <x-layouts.master>
+    {{-- @section('title', '')
+    @section('description', '') --}}
 
 
    <x-breadcrumbs title="About Us" bgi="{{asset('assets/images/hotel_1.webp')}}"/>

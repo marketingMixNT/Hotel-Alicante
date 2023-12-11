@@ -1,5 +1,6 @@
 <x-layouts.master>
-
+{{-- @section('title', '')
+    @section('description', '') --}}
 
     <x-breadcrumbs title="Our Apartments" bgi="{{ asset('assets/images/rennes-6/renes_3.webp') }}" />
 

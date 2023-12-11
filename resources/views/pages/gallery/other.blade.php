@@ -1,4 +1,6 @@
 <x-layouts.master>
+    {{-- @section('title', '')
+    @section('description', '') --}}
 
     <x-breadcrumbs title="Other Photos" bgi="{{asset('assets/images/arenal-dream/arenal-dream_5.webp')}}"/>
   

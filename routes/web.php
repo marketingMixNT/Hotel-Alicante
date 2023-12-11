@@ -45,3 +45,5 @@ Route::prefix('/gallery')->group(function () {
 });
 
 Route::view('/contact','pages.contact.index')->name('contact');
+Route::view('/long-term-rental','pages.long-term-rental')->name('long-term-rental');
+

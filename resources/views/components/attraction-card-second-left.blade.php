@@ -36,7 +36,7 @@
             </div>
             <div class="gdlr-core-pbf-element">
                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 20px;">
-                    <div class="gdlr-core-text-box-item-content" style="font-size: 18px; font-weight: 400; text-transform: none; color: black;">
+                    <div class="gdlr-core-text-box-item-content" style="font-size: 18px; font-weight: 400; text-transform: none;">
                         <p>{{$slot}}</p>
                     </div>
                 </div>

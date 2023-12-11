@@ -1,4 +1,7 @@
 <x-layouts.master>
+    {{-- @section('title', '')
+    @section('description', '') --}}
+    <x-loader/>
 
     <x-breadcrumbs title="Gallery" bgi="{{ asset('assets/images/arenal-dream/arenal-dream_5.webp') }}" />
 
@@ -10,8 +13,6 @@
                 <div class="gdlr-core-pbf-background-wrap"></div>
                 <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
 
-                    {{-- <div id="loader">load</div> --}}
-                    <x-loader/>
 
                     <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full">
 

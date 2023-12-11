@@ -1,4 +1,6 @@
 <x-layouts.master>
+    {{-- @section('title', '')
+    @section('description', '') --}}
 
     <x-breadcrumbs title="Arena Dream D2B" bgi="{{ asset('assets/images/arenal-d2b/arenal-d2b_16.webp') }}" />
 

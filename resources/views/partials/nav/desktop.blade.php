@@ -4,7 +4,7 @@
 
         <div class="hotale-main-menu-right-wrap clearfix hotale-item-mglr hotale-navigation-top logo-nav" style="left:0;top:.3em;display:none">
             <div class="tourmaster-room-navigation-checkout-wrap">
-              <img src="{{asset('assets/logo--dark.png')}}" alt="logo of Javea" width="130px">
+              <img src="{{asset('assets/logo--dark.png')}}" alt="logo of Javea" width="120" >
               
             </div>
         </div>

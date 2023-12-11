@@ -1,5 +1,6 @@
 <x-layouts.master>
-
+{{-- @section('title', '')
+    @section('description', '') --}}
 
     <x-breadcrumbs title="Attractions" bgi="{{ asset('assets/images/hotel_1.webp') }}" />
 

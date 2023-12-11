@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first" id="gdlr-core-column-1">
+            {{-- <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first" id="gdlr-core-column-1">
                 <div class="gdlr-core-pbf-column-content-margin gdlr-core-js" style="padding: 50px 0px 0px 0px;">
                     <div class="gdlr-core-pbf-background-wrap"></div>
                     <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>

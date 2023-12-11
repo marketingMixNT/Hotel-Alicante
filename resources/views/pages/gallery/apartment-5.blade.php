@@ -1,4 +1,6 @@
 <x-layouts.master>
+    {{-- @section('title', '')
+    @section('description', '') --}}
 
     <x-breadcrumbs title="Isleta Marina 6 Gallery" bgi="{{asset('assets/images/arenal-dream/arenal-dream_5.webp')}}"/>
   
