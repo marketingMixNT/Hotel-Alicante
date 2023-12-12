@@ -1,4 +1,16 @@
-<li class="menu-ite hotale-normal-menu"><a href="{{ route('about') }}">About Us</a></li>
+
+<li class="menu-item menu-item-has-children hotale-normal-menu">
+    <a href="{{ route('about') }}" class="sf-with-ul-pre">About Javea</a>
+    <ul class="sub-menu">
+        <li class="menu-item"><a href="{{ route('attractions') }}">Attractions</a></li>
+        <li class="menu-item" data-size="60">
+            <a href="{{ route('long-term-rental') }}">Long Term Rental</a>
+        </li>
+
+    </ul>
+</li>
+
+
 <li class="menu-item menu-item-has-children hotale-normal-menu">
     <a href="{{ route('apartments') }}" class="sf-with-ul-pre">Apartments</a>
     <ul class="sub-menu">
@@ -21,11 +33,11 @@
     </ul>
 </li>
 
-<li class="menu-ite hotale-normal-menu"><a href="{{ route('attractions') }}">Attractions</a></li>
+
 
 
 <li class="menu-item menu-item-has-children hotale-normal-menu">
-    <a href="" class="sf-with-ul-pre">Gallery</a>
+    <a href="{{ route('js-gallery') }}" class="sf-with-ul-pre">Gallery</a>
     <ul class="sub-menu">
         <li class="menu-item" data-size="60">
             <a href="{{ route('gallery-apartment-1') }}">Arena Dream A3A</a>
@@ -45,13 +57,11 @@
         <li class="menu-item" data-size="60">
             <a href="{{ route('gallery-other') }}">Other</a>
         </li>
-        <li class="menu-item" data-size="60">
-            <a href="{{ route('js-gallery') }}">JS Gallery</a>
-        </li>
+        
 
     </ul>
 </li>
 
 
 <li class="menu-ite hotale-normal-menu"><a href="{{ route('contact') }}">Contact</a></li>
-<li class="menu-ite hotale-normal-menu"><a href="{{ route('long-term-rental') }}">Long Term Rental</a></li>
+

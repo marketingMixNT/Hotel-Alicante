@@ -22,56 +22,67 @@
         </x-slot> --}}
 
         <x-slot name='description'>
-            <div class="description__heading"> 
-                <h5>Exclusive 75m2 penthouse suite beckons you to a vacation experience like no other. Positioned a mere 200
-                meters from the soft sands of Arenal Beach, this penthouse combines the tranquility of the sea with the
-                elegance of sophisticated living.</h5>
-            </div>
-           
 
-            <div style="margin-top:1em">
-                <h6 style="margin-bottom:0">Location:</h3>
-                    <p>Set within the esteemed Arenal Dream complex, your stay places you moments away from the bustling
-                        promenade, offering the perfect blend of serenity and convenience.</p>
-            </div>
-            <div style="margin-top:1em">
-                <h6 style="margin-bottom:0">Accommodation:</h3>
-                    <p>The penthouse features three cozy designed bedrooms, accommodating up to six guests. The master
-                        bedroom is a sanctuary with a comfortable double bed, while the two additional bedrooms are
-                        furnished with two single beds, that can be prepared as duble, all complemented by ample
-                        built-in wardrobe space.</p>
-            </div>
-            <div style="margin-top:1em">
-                <h6 style="margin-bottom:0">Bathroom:</h3>
-                    <p>Two comfortable bathrooms with necessary amenities and plush towels, ensuring a refreshing start and end to your day.</p>
-            </div>
-            <div style="margin-top:1em">
-                <h6 style="margin-bottom:0">Kitchen:</h3>
-                    <p>A culinary haven awaits in the fully equipped kitchen, complete with modern appliances such as a dishwasher, microwave, refrigerator, oven, and ceramic hob. It’s an inviting space for both cooking enthusiasts and those seeking the simplicity of vacation dining.</p>
-            </div>
-            <div style="margin-top:1em">
-                <h6 style="margin-bottom:0">Living Area:</h3>
-                    <p>The spacious living area is adorned with a large-screen TV 50-inch TV and merges into an 18m2 dining balcony featuring an 8-seater table and a cozy outdoor sofa. It’s an idyllic setting for memorable meals and relaxing evenings.</p>
-            </div>
-            <div style="margin-top:1em">
-                <h6 style="margin-bottom:0">Rooftop Terrace:</h3>
-                    <p>A private 25m2 rooftop terrace elevates your stay to new heights, offering garden furniture, sun loungers, and a gas  grill. Revel in the panoramic views and bask in the Javea sun for the ultimate leisure experience.</p>
-            </div>
-            <div style="margin-top:1em">
-                <h6 style="margin-bottom:0">Amenities:</h3>
-                    <p>Year-round comfort is assured with central air conditioning and heating. A washing machine is also provided for your convenience, accommodating both short-term escapes and extended retreats.</p>
-            </div>
-            <div style="margin-top:1em">
-                <h6 style="margin-bottom:0">Parking:</h3>
-                    <p>A dedicated underground parking space is included, adding peace of mind and ease to your luxurious stay.</p>
-            </div>
-            <div style="margin-top:1em">
-                <h6 style="margin-bottom:0">Arenal Dream Complex:</h3>
-                    <p>Enjoy exclusive access to the community amenities, including a swimming pool and shaded areas perfect for lounging away from the midday sun.</p>
-            </div>
-            <div class="description__summary"> 
-                <h6>Just a 200-meter stroll from the beach and with ample living and outdoor space, this penthouse at Arenal Dream is a premium choice for those who seek the finest in comfort, location, and luxury. Discover the joy of Javea in a home that promises an unforgettable escape. Book your dream holiday today.</h6>
-            </div>
+
+            <x-apartment.descriptionHeadingCard>Exclusive 75m2 penthouse suite beckons you to a vacation experience like no other. Positioned a mere 200 meters from the soft sands of Arenal Beach, this penthouse combines the tranquility of the sea with the elegance of sophisticated living.</x-apartment.descriptionHeadingCard>
+
+
+            <x-apartment.descriptionCard title="Location:">
+                @slot('icon')
+                    <img src="{{ asset('assets/icons/location.png') }}" alt="" style="width: 30px">
+                @endslot
+                Set within the esteemed Arenal Dream complex, your stay places you moments away from the bustling promenade, offering the perfect blend of serenity and convenience.</x-apartment.descriptionCard>
+
+            <x-apartment.descriptionCard title="Accommodation:">
+                @slot('icon')
+                    <img src="{{ asset('assets/icons/accomodation.png') }}" alt="" style="width: 30px">
+                @endslot
+                The penthouse features three cozy designed bedrooms, accommodating up to six guests. The master bedroom is a sanctuary with a comfortable double bed, while the two additional bedrooms are furnished with two single beds, that can be prepared as duble, all complemented by ample built-in wardrobe space.</x-apartment.descriptionCard>
+
+            <x-apartment.descriptionCard title="Bathroom:">
+                @slot('icon')
+                    <img src="{{ asset('assets/icons/bathroom.png') }}" alt="" style="width: 30px">
+                @endslot
+                Two comfortable bathrooms with necessary amenities and plush towels, ensuring a refreshing start and end to your day.</x-apartment.descriptionCard>
+
+            <x-apartment.descriptionCard title="Kitchen:">
+                @slot('icon')
+                    <img src="{{ asset('assets/icons/kitchen.png') }}" alt="" style="width: 30px">
+                @endslot
+                A culinary haven awaits in the fully equipped kitchen, complete with modern appliances such as a dishwasher, microwave, refrigerator, oven, and ceramic hob. It’s an inviting space for both cooking enthusiasts and those seeking the simplicity of vacation dining.</x-apartment.descriptionCard>
+
+            <x-apartment.descriptionCard title="Living Area:">
+                @slot('icon')
+                    <img src="{{ asset('assets/icons/living-area.png') }}" alt="" style="width: 30px">
+                @endslot
+                The spacious living area is adorned with a large-screen TV 50-inch TV and merges into an 18m2 dining balcony featuring an 8-seater table and a cozy outdoor sofa. It’s an idyllic setting for memorable meals and relaxing evenings.</x-apartment.descriptionCard>
+
+            <x-apartment.descriptionCard title="Rooftop Terrace:">
+                @slot('icon')
+                    <img src="{{ asset('assets/icons/rooftop.png') }}" alt="" style="width: 30px">
+                @endslot
+                A private 25m2 rooftop terrace elevates your stay to new heights, offering garden furniture, sun loungers, and a gas  grill. Revel in the panoramic views and bask in the Javea sun for the ultimate leisure experience.</x-apartment.descriptionCard>
+
+            <x-apartment.descriptionCard title="Amenities:">
+                @slot('icon')
+                    <img src="{{ asset('assets/icons/amenities.png') }}" alt="" style="width: 30px">
+                @endslot
+                Year-round comfort is assured with central air conditioning and heating. A washing machine is also provided for your convenience, accommodating both short-term escapes and extended retreats.</x-apartment.descriptionCard>
+
+
+            <x-apartment.descriptionCard title="Parking:">
+                @slot('icon')
+                    <img src="{{ asset('assets/icons/parking.png') }}" alt="" style="width: 30px">
+                @endslot
+                A dedicated underground parking space is included, adding peace of mind and ease to your luxurious stay.</x-apartment.descriptionCard>
+
+            <x-apartment.descriptionCard title="Arenal Dream Complex:">
+                @slot('icon')
+                    <img src="{{ asset('assets/icons/complex.png') }}" alt="" style="width: 30px">
+                @endslot
+                Enjoy exclusive access to the community amenities, including a swimming pool and shaded areas perfect for lounging away from the midday sun.</x-apartment.descriptionCard>
+
+            <x-apartment.summary>Just a 200-meter stroll from the beach and with ample living and outdoor space, this penthouse at Arenal Dream is a premium choice for those who seek the finest in comfort, location, and luxury. Discover the joy of Javea in a home that promises an unforgettable escape. Book your dream holiday today.</x-apartment.summary>
         </x-slot>
 
         <x-slot name="rooms_amenities">
