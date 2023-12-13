@@ -8,6 +8,11 @@
                     <i class="icon-envelope" style="font-size: 15px; color: white; margin-left: 25px; margin-right: 10px;"></i>
                     <a href="mail" style="color: white !important;">test@gmail.com</a>
                 </div>
+                {{-- <div style="display:flex;justify-content:center;align-items:center">
+                   <img  src="{{asset('assets/logo.png')}}"
+                   alt="hotel logo" style="width:150px">
+                   <h3 style="margin-bottom:0"> Savor the Sun, Relish the Comfort</h3>
+                </div> --}}
             </div>
             <div class="hotale-logo hotale-item-pdlr">
                 <div class="hotale-logo-inner">

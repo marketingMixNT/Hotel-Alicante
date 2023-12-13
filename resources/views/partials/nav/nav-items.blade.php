@@ -36,7 +36,7 @@
 
 
 
-<li class="menu-item menu-item-has-children hotale-normal-menu">
+{{-- <li class="menu-item menu-item-has-children hotale-normal-menu">
     <a href="{{ route('js-gallery') }}" class="sf-with-ul-pre">Gallery</a>
     <ul class="sub-menu">
         <li class="menu-item" data-size="60">
@@ -60,7 +60,10 @@
         
 
     </ul>
-</li>
+</li> --}}
+
+<li class="menu-ite hotale-normal-menu"><a href="{{ route('js-gallery') }}">Gallery</a></li>
+
 
 
 <li class="menu-ite hotale-normal-menu"><a href="{{ route('contact') }}">Contact</a></li>

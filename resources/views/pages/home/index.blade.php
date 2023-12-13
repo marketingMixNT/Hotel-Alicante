@@ -10,8 +10,8 @@
                     {{-- OUR-ROOMS --}}
                     @include('pages.home.partials.rooms')
 
-                    {{-- ATTRACTIONS --}}
-                    @include('pages.home.partials.cta')
+                    {{-- SPACIOUS-APARTMENTS --}}
+                    @include('pages.home.partials.features')
 
                     {{-- HERO--SECOND --}}
                     @include('pages.home.partials.hero-second')
