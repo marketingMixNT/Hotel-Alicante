@@ -2,9 +2,7 @@
     {{-- @section('title', '')
     @section('description', '') --}}
 
-    <div
-        style="background-image: url('{{ asset('assets/images/arenal-a3a/arenal-a3a_12.webp') }}'); height:500px;width:100% background-position:center;background-size:cover">
-    </div>
+   <x-banner img="{{asset('assets/images/arenal-a3a/arenal-a3a_16.webp')}}"/>
 
     @php
         $apartmentFiles = ['pages.apartments.cards.apartment-1', 'pages.apartments.cards.apartment-2', 'pages.apartments.cards.apartment-3', 'pages.apartments.cards.apartment-4', 'pages.apartments.cards.apartment-5'];
