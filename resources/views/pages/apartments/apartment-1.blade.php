@@ -113,7 +113,7 @@
                 Arenal Dream, where every detail is tailored for your comfort and enjoyment.</x-apartment.summary>
         </x-slot>
 
-        <x-slot name="rooms_amenities">
+        {{-- <x-slot name="rooms_amenities">
             <x-apartment.amenityCard title="TV">
                 <i class="gdlr-icon-watch-tv" style="color: #1e1e1e;"></i>
             </x-apartment.amenityCard>
@@ -137,7 +137,7 @@
             </x-apartment.amenityCard>
             <x-apartment.amenityCard title="Hair Dryer">
                 <i class="gdlr-icon-hair-dryer1" style="color: #1e1e1e;"></i> </x-apartment.amenityCard>
-        </x-slot>
+        </x-slot> --}}
 
         {{-- <x-slot name="hotel_amenities">
             <x-apartment.amenityCard title="Gym">
@@ -151,6 +151,10 @@
             <x-apartment.amenityCard title="Room Service">
                 <i class="gdlr-icon-food-service-copy" style="color: #1e1e1e;"></i> </x-apartment.amenityCard>
         </x-slot> --}}
+
+        <x-slot name="localization">
+            <x-apartment.localization/>
+        </x-slot>
 
         <x-slot name="gallery">
             <x-apartment.galleryItem src="{{ asset('assets/images/arenal-a3a/arenal-a3a_10.webp') }}" />

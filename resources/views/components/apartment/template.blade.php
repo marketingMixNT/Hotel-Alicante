@@ -25,7 +25,8 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="tourmaster-room-title-item tourmaster-item-mglr tourmaster-item-pdb clearfix"
                                         style="padding-bottom: 35px;">
-                                        <h3 class="tourmaster-room-title-item-title" style="text-align:center">{{ $title }}</h3>
+                                        <h3 class="tourmaster-room-title-item-title" style="text-align:center">
+                                            {{ $title }}</h3>
                                         {{-- <div class="tourmaster-room-title-price">
                                             <div class="tourmaster-head">
                                                 <span class="tourmaster-label">From</span><span
@@ -47,7 +48,7 @@
                     </div>
 
                     {{-- FEATURES --}}
-                    {{-- {{ $features }} --}}
+                    {{ $features }}
 
 
                     <div class="gdlr-core-pbf-column gdlr-core-column-20">
@@ -98,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first">
+                    {{-- <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first">
                         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
                             <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
                                 <div class="gdlr-core-pbf-element">
@@ -115,9 +116,29 @@
                                 </div>
                             </div>
                         </div>
+                    </div> --}}
+                    <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first">
+                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
+                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
+                                <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
+                                        style="padding-bottom: 40px;">
+                                        <div class="gdlr-core-title-item-title-wrap">
+                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test"
+                                                style="font-size: 25px; font-weight: 500; letter-spacing: 0px; text-transform: none;">
+                                                Localization:<span
+                                                    class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                                            </h3>
+                                        </div>
+                                       
+                                        {{$localization}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    {{ $rooms_amenities }}
+                    {{-- {{ $rooms_amenities }} --}}
 
                     {{-- <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first"
                         id="gdlr-core-column-16">

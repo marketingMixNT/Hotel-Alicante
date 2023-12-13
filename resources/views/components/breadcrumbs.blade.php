@@ -1,4 +1,4 @@
-<div class="hotale-page-title-wrap hotale-style-custom hotale-center-align" style="background-image: url('{{$bgi}}')">
+<div class="hotale-page-title-wrap hotale-style-custom hotale-center-align banner" style="background-image: url('{{$bgi}}')">
     <div class="hotale-header-transparent-substitute"></div>
     <div class="hotale-page-title-overlay"></div>
     <div class="overlay"></div>

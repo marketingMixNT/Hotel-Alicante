@@ -8,13 +8,13 @@
     &__summary{
         margin-top: 3em;
     }
-    &__heading, &__summary {
-        text-align: center;
+    // &__heading, &__summary {
+    //     text-align: left;
         
-        @include mixins.large-devices {
-            padding: 0 5em;
-        }
-    }
+    //     @include mixins.large-devices {
+    //         padding: 0 5em;
+    //     }
+    // }
 }
 
 

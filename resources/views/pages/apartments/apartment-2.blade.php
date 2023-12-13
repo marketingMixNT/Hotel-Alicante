@@ -10,7 +10,7 @@
             <x-apartment.thumbnail img="{{ asset('assets/images/arenal-d2b/arenal-d2b_8.webp') }}" />
         </x-slot>
 
-        {{-- <x-slot name="features">
+        <x-slot name="features">
             <x-apartment.featureCard title="Bed" desc="1 king bed">
                 <i class="gdlr-icon-double-bed2"
                     style="font-size: 33px; line-height: 33px; width: 33px; color: #0a0a0a;"></i>
@@ -19,7 +19,7 @@
                 <i class="gdlr-icon-resize"
                     style="font-size: 34px; line-height: 34px; width: 34px; color: #0a0a0a;"></i>
             </x-apartment.featureCard>
-        </x-slot> --}}
+        </x-slot>
 
         <x-slot name='description'>
 
@@ -85,7 +85,7 @@
             <x-apartment.summary>Just a 200-meter stroll from the beach and with ample living and outdoor space, this penthouse at Arenal Dream is a premium choice for those who seek the finest in comfort, location, and luxury. Discover the joy of Javea in a home that promises an unforgettable escape. Book your dream holiday today.</x-apartment.summary>
         </x-slot>
 
-        <x-slot name="rooms_amenities">
+        {{-- <x-slot name="rooms_amenities">
             <x-apartment.amenityCard title="TV">
                 <i class="gdlr-icon-watch-tv" style="color: #1e1e1e;"></i>
             </x-apartment.amenityCard>
@@ -109,7 +109,7 @@
             </x-apartment.amenityCard>
             <x-apartment.amenityCard title="Hair Dryer">
                 <i class="gdlr-icon-hair-dryer1" style="color: #1e1e1e;"></i> </x-apartment.amenityCard>
-        </x-slot>
+        </x-slot> --}}
 
         {{-- <x-slot name="hotel_amenities">
             <x-apartment.amenityCard title="Gym">
@@ -123,6 +123,10 @@
             <x-apartment.amenityCard title="Room Service">
                 <i class="gdlr-icon-food-service-copy" style="color: #1e1e1e;"></i> </x-apartment.amenityCard>
         </x-slot> --}}
+
+        <x-slot name="localization">
+            <x-apartment.localization/>
+        </x-slot>
 
         <x-slot name="gallery">
             <x-apartment.galleryItem src="{{ asset('assets/images/arenal-d2b/arenal-d2b_4.webp') }}" />
